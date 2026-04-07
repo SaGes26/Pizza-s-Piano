@@ -1,0 +1,64 @@
+.footer {
+    background-color: var(--dark-charcoal); 
+    color: var(--paper-white);
+    padding: 60px 10% 20px;
+    min-width: 1200px; 
+    margin-top: 50px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1); 
+    padding-bottom: 40px;
+}
+
+.footer-box {
+    flex: 1; 
+    margin: 0 20px;
+}
+
+/* Chỉnh logo chữ trong footer */
+.brand-box h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+    color: var(--paper-white);
+}
+
+.brand-box h2 .highlight {
+    color: var(--viet-red);
+}
+
+.footer-box h3 {
+    color: var(--tuscany-yellow);
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Chữ nội dung */
+.footer-box p {
+    line-height: 1.8;
+    font-size: 0.95rem;
+    color: #d1d1d1;
+    white-space: nowrap; 
+}
+
+.footer-box p .icon {
+    margin-right: 8px;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 0.85rem;
+    color: #888;
+}
+
+.footer-bottom p {
+    margin: 0;
+}

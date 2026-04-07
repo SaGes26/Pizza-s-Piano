@@ -1,0 +1,108 @@
+.action-bar-combined {
+    padding: 40px 0;
+    min-width: 1200px; 
+    color: white;
+    background-image: url(Images/Background.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.action-container {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 60px; 
+}
+
+/* Cụm Đặt hàng */
+.cta-unit {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.cta-content h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.6rem;
+    margin: 0;
+    white-space: nowrap; 
+}
+
+.cta-content p {
+    margin: 5px 0 0 0;
+    font-size: 1rem;
+    white-space: nowrap;
+}
+
+.phone-highlight {
+    color: var(--tuscany-yellow);
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.btn-order-now {
+    background-color: white;
+    color: var(--viet-red);
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    white-space: nowrap;
+    transition: 0.3s;
+    border: 2px solid white;
+}
+
+.btn-order-now:hover {
+    background-color: transparent;
+    color: white;
+}
+
+/* Vạch chia giữa */
+.vertical-divider {
+    width: 1px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* Cụm Tìm kiếm đơn hàng */
+.search-order-unit {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.search-order-unit label {
+    font-weight: 500;
+    font-size: 0.95rem;
+    white-space: nowrap;
+}
+
+.search-box-wrapper {
+    display: flex;
+}
+
+.search-box-wrapper input {
+    width: 250px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+.btn-search-order {
+    background-color: var(--dark-charcoal);
+    color: white;
+    border: none;
+    padding: 0 15px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+    white-space: nowrap;
+}
+
+.btn-search-order:hover {
+    background-color: black;
+}

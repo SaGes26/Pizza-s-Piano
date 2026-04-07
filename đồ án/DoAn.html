@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Document</title>
+    <link rel="stylesheet" href="Header_Menu.css">
+    <link rel="stylesheet" href="Content_Menu.css">
+    <link rel="stylesheet" href="Footer_Menu.css">
+    <link rel="stylesheet" href="Middle_Order.css">
+    
+</head>
+<body>
+
+    <!-- Header cho Menu -->
+    <nav class="navbar">
+        <div class="logo">
+            <span>PIZZA'S</span><span class="highlight">Piano</span>
+        </div>
+        
+        <ul class="nav-links">
+            <li><a href="#" class="active">Trang chủ</a></li>
+
+            <li class="has-submenu">
+                <a href="javascript:void(0)" class="submenu-toggle">Thực đơn</a>
+                <ul class="submenu" id="submenu-list">
+                    <li><a href="#">Pizza Truyền Thống</a></li>
+                    <li><a href="#">Pizza Hải Sản</a></li>
+                    <li><a href="#">Mỳ Ý & Salad</a></li>
+                    <li><a href="#">Đồ uống</a></li>
+                    <li><a href="#">Đồ ăn khác</a></li>
+                </ul>
+            </li>
+            
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Liên hệ</a></li>
+        </ul>
+
+        <div class="nav-actions">
+        <div class="search-bar">
+            <input type="text" placeholder="Tìm món ăn...">
+            <button type="submit">🔍</button>
+        </div>
+        <a href="#" class="btn-order">Đặt hàng ngay</a>
+    </div>
+    </nav>
+
+    <!-- Content Cho Pizza -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>PIZZA'S Piano - ĐẬM VỊ NHẠC VIỆT</h1>
+            <p>Hương vị truyền thống Italy kết hợp cùng nguyên liệu tươi ngon nhất từ dải đất Việt Nam.</p>
+            <div class="hero-btns">
+                <a href="#" class="btn-primary">Xem Thực Đơn</a>
+                <a href="#" class="btn-secondary">Tìm Hiểu Thêm</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="featured">
+        <h2 class="section-title">Pizza Fusion Đặc Biệt</h2>
+        <div class="pizza-grid">
+            <div class="pizza-card">
+                <div class="pizza-img">
+                    <img src="Images/MamTomBo.jpg" alt="Pizza">
+                </div>
+                <div class="pizza-info">
+                    <h3>Pizza Mắm Tôm Bò</h3>
+                    <p>Sự hòa quyện giữa bò băm Mỹ và vị đậm đà mắm tôm Việt.</p>
+                    <p class="price">185.000 VNĐ</p>
+                    <button class="btn-add">Chọn mua</button>
+                </div>
+            </div>
+
+            <div class="pizza-card">
+                <div class="pizza-img">
+                    <img src="Images/GaMacKhen.jpg" alt="Pizza">
+                </div>
+                <div class="pizza-info">
+                    <h3>Pizza Gà Mắc Khén</h3>
+                    <p>Gà nướng củi cùng gia vị đặc sản vùng núi Tây Bắc.</p>
+                    <p class="price">165.000 VNĐ</p>
+                    <button class="btn-add">Chọn mua</button>
+                </div>
+            </div>
+
+            <div class="pizza-card">
+                <div class="pizza-img">
+                    <img src="Images/HaiSanY.jpg" alt="Pizza">
+                </div>
+                <div class="pizza-info">
+                    <h3>Pizza Hải Sản Ý</h3>
+                    <p>Tôm, mực tươi từ biển Đà Nẵng kết hợp sốt cà chua Napoli.</p>
+                    <p class="price">195.000 VNĐ</p>
+                    <button class="btn-add">Chọn mua</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <p></p>
+
+    <section class="featured">
+        <div class="pizza-grid">
+            <div class="pizza-card">
+                <div class="pizza-img">
+                    <img src="Images/SauRiengxPhoMaiXanh.jpg" alt="Pizza">
+                </div>
+                <div class="pizza-info">
+                    <h3>Pizza Sầu riêng mix Phô mai xanh</h3>
+                    <p>Sự kết hợp độc lạ giữa "Vua trái cây" nồng nàn và loại phô mai cay nồng.</p>
+                    <p class="price">195.000 VNĐ</p>
+                    <button class="btn-add">Chọn mua</button>
+                </div>
+            </div>
+
+            <div class="pizza-card">
+                <div class="pizza-img">
+                    <img src="Images/Sasimi Cá hồi.jpg" alt="Pizza">
+                </div>
+                <div class="pizza-info">
+                    <h3>Pizza Sashimi Cá hồi</h3>
+                    <p>Sự kết hợp độc đáo kết hợp đế bánh pizza giòn rụm với sashimi tươi sống</p>
+                    <p class="price">135.000 VNĐ</p>
+                    <button class="btn-add">Chọn mua</button>
+                </div>
+            </div>
+
+            <div class="pizza-card">
+                <div class="pizza-img">
+                    <img src="Images/pizza-kim-chi.jpg" alt="Pizza">
+                </div>
+                <div class="pizza-info">
+                    <h3>Pizza Kim chi Hàn Quốc</h3>
+                    <p> Món ăn này kết hợp vị chua cay của kim chi, độ dai của bún tàu (japchae) và phô mai béo ngậy</p>
+                    <p class="price">140.000 VNĐ</p>
+                    <button class="btn-add">Chọn mua</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <p></p>
+
+    <!-- Thanh đặt hàng giữa Content và Footer -->
+    <section class="action-bar-combined">
+    <div class="action-container">
+        
+        <div class="cta-unit">
+            <div class="cta-content">
+                <h3>Sẵn sàng thưởng thức chưa?</h3>
+                <p>Hotline đặt hàng: <span class="phone-highlight">0123.456.789</span></p>
+            </div>
+            <a href="#" class="btn-order-now">ĐẶT HÀNG NGAY</a>
+        </div>
+
+        <div class="vertical-divider"></div>
+
+        <div class="search-order-unit">
+            <label for="order-id">Theo dõi đơn hàng:</label>
+            <div class="search-box-wrapper">
+                <input type="text" id="order-id" placeholder="Nhập mã đơn hàng của bạn...">
+                <button type="button" class="btn-search-order">🔍 Tìm</button>
+            </div>
+        </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-box brand-box">
+                <h2>PIZZA'S<span class="highlight">Piano</span></h2>
+                <p>Sự kết hợp hoàn hảo giữa kỹ thuật nướng củi Napolitan truyền thống và tinh hoa đặc sản vùng miền Việt Nam.</p>
+            </div>
+
+            <div class="footer-box contact-box">
+                <h3>Liên hệ</h3>
+                <p><span class="icon">📍</span> 921 Đường Tân Kỳ Tân Quý - Việt, Thành Phố Hồ Chí Minh</p>
+                <p><span class="icon">📞</span> Hotline: 0095.834.356</p>
+                <p><span class="icon">✉️</span> Email: chao@pizza'spiano.vn</p>
+            </div>
+
+            <div class="footer-box hours-box">
+                <h3>Giờ mở cửa</h3>
+                <p>Thứ 2 - Thứ 6: 09:00 - 22:00</p>
+                <p>Thứ 7 - Chủ Nhật: 10:00 - 23:00</p>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2026 Pizza's Piano. Designed by Nguyễn Hoài An.</p>
+        </div>
+    </footer>
+    <script src="Doan.js"></script>
+</body>
+</html>
